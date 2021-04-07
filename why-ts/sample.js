@@ -1,7 +1,12 @@
-function sum(a, b) {
-  return a + b;
-}
+// //@ts-check
 
-//문자열로 잘못 입력했을 경우..1020으로 나올것이다.
-// var result = sum(10, "20");
-// result.
+// /**
+//  * @param {number} a 첫번째 숫자
+//  * @param {number} b 두번째 숫자
+//  * @returns
+//  */
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// // sum(10, '20');

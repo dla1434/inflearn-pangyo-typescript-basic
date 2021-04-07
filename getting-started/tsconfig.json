@@ -1,0 +1,11 @@
+{
+  //기본적인 ts의 컴파일 옵션
+  "compilerOptions": {
+    //이 프로젝트 안에 js를 허용하겠다.
+    "allowJs": true,
+    //@ts-check 이 역활을 설정으로 처리 가능
+    "checkJs": true,
+    //타입에 최소한 any라도 넣어어 한다.
+    "noImplicitAny": true
+  }
+}
