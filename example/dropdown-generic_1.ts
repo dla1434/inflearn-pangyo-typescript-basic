@@ -1,22 +1,19 @@
-interface DropdownItem<T> {
-  value: T;
-  selected: boolean;
-}
+/*
 
 // const emails: object[] = [
-const emails: DropdownItem<string>[] = [
+const emails: { value: string; selected: boolean }[] = [
   { value: 'naver.com', selected: true },
   { value: 'gmail.com', selected: false },
   { value: 'hanmail.net', selected: false },
 ];
 
-const numberOfProducts: DropdownItem<number>[] = [
+const numberOfProducts: { value: number; selected: boolean }[] = [
   { value: 1, selected: true },
   { value: 2, selected: false },
   { value: 3, selected: false },
 ];
 
-function createDropdownItem(item: DropdownItem<string> | DropdownItem<number>) {
+function createDropdownItem(item: { value: string; selected: boolean }) {
   const option = document.createElement('option');
   option.value = item.value.toString();
   option.innerText = item.value.toString();
@@ -31,6 +28,4 @@ emails.forEach(function (email) {
   selectTag.appendChild(item);
 });
 
-numberOfProducts.forEach(function (product) {
-  const item = createDropdownItem(product);
-});
+*/
